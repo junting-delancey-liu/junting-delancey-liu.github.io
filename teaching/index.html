@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Teaching assistant experience of Junting (Delancey) Liu.">
+  <title>Teaching | Junting (Delancey) Liu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --background:#f8f6f3; --ink:#292725; --muted:#5f5954; --accent:#8f2537; --line:#ded8d1; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--background); color:var(--ink); font-family:"STIX Two Text",Georgia,serif; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+    .site { width:min(1080px,calc(100% - 48px)); margin:0 auto; }
+    .top-nav { display:flex; align-items:center; gap:30px; padding:26px 0; border-bottom:1px solid var(--line); }
+    .top-nav .brand { margin-right:auto; color:var(--ink); font-size:20px; font-weight:700; }
+    .top-nav .nav-link { color:var(--muted); font-size:16px; }
+    .top-nav .nav-link[aria-current="page"] { color:var(--accent); }
+    .hero { display:flex; justify-content:space-between; align-items:center; gap:42px; padding:88px 0 52px; }
+    .eyebrow { margin:0 0 12px; color:var(--accent); font-size:16px; font-weight:600; letter-spacing:.055em; text-transform:uppercase; }
+    h1 { margin:0 0 15px; font-size:clamp(37px,4.9vw,60px); font-weight:600; line-height:1.15; letter-spacing:-.02em; }
+    .affiliation { margin:0; font-size:21px; line-height:1.55; color:var(--muted); }
+    .portrait { width:205px; height:245px; flex-shrink:0; object-fit:cover; border-radius:5px; }
+    .contact { display:flex; flex-wrap:wrap; gap:12px 24px; padding-bottom:34px; border-bottom:1px solid var(--line); font-size:17px; }
+    .about { padding:44px 0 82px; max-width:960px; }
+    .about h2 { font-size:25px; font-weight:600; color:var(--accent); margin:0 0 20px; }
+    .about p { margin:0; font-size:clamp(20px,2.1vw,26px); line-height:1.8; }
+    footer { border-top:1px solid var(--line); color:var(--muted); font-size:14px; padding:24px 0 40px; }
+    @media (max-width:650px) {
+      .site { width:min(100% - 32px,1080px); }
+      .top-nav { flex-wrap:wrap; gap:13px 20px; padding:18px 0; }
+      .top-nav .brand { width:100%; }
+      .hero { align-items:flex-start; gap:22px; padding:48px 0 35px; }
+      .portrait { width:115px; height:145px; }
+      h1 { font-size:34px; }
+      .affiliation { font-size:17px; }
+      .about { padding:35px 0 65px; }
+      .about p { font-size:20px; }
+    }
+
+    .research-hero { padding:74px 0 34px; }
+    .research-hero h1 { margin:0; }
+    .paper-section { border-top:1px solid var(--line); padding:30px 0 14px; }
+    .paper-section h2 { color:var(--accent); font-size:30px; font-weight:600; margin:0 0 24px; }
+    .paper { margin:0 0 33px; }
+    .paper h3 { font-size:23px; font-weight:600; line-height:1.45; margin:0 0 8px; }
+    .paper p { margin:4px 0; font-size:17px; line-height:1.65; color:var(--muted); }
+    .research-content { padding-bottom:45px; }
+    @media (max-width:650px) { .research-hero { padding:46px 0 26px; } .paper h3 { font-size:20px; } .paper-section h2 { font-size:26px; } }
+  
+    .teaching-intro { margin:10px 0 38px; color:var(--muted); font-size:20px; line-height:1.65; }
+    .course { padding:22px 0 24px; border-top:1px solid var(--line); }
+    .course h2 { margin:0 0 8px; color:var(--accent); font-size:23px; line-height:1.4; font-weight:600; }
+    .course p { margin:0; color:var(--muted); font-size:17px; line-height:1.65; }
+    @media (max-width:650px) { .teaching-intro { font-size:18px; } .course h2 { font-size:20px; } }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <nav class="top-nav" aria-label="Main navigation">
+      <a class="brand" href="../">Junting (Delancey) Liu</a>
+      <a class="nav-link" href="../">About</a>
+      <a class="nav-link" href="../research/">Research</a>
+      <a class="nav-link" href="./" aria-current="page">Teaching</a>
+    </nav>
+
+    <header class="research-hero">
+      <h1>Teaching</h1>
+    </header>
+
+    <main class="research-content">
+      <p class="teaching-intro">Teaching Assistant at Fudan University.</p>
+
+      <section aria-label="Courses supported as a teaching assistant">
+        <article class="course">
+          <h2>MBAM620025: Corporate Financial Strategy</h2>
+          <p>MBA course · Spring 2026</p>
+        </article>
+        <article class="course">
+          <h2>MANA630177: Financial Modeling and Database</h2>
+          <p>Postgraduate course · Spring 2025</p>
+        </article>
+        <article class="course">
+          <h2>MBAP620027: Corporate Finance</h2>
+          <p>MBA course · Spring 2024</p>
+        </article>
+        <article class="course">
+          <h2>MANA130029: Investment Finance</h2>
+          <p>Undergraduate course · Fall 2022</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>© 2026 Junting (Delancey) Liu.</footer>
+  </div>
+</body>
+</html>
